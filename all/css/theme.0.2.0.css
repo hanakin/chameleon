@@ -397,8 +397,6 @@ select:focus::-ms-value {
 .c-forum-deck {
 	display: block;
 	transition: 0.35s ease-in-out;
-	-webkit-transform: scaleY(1);
-	        transform: scaleY(1);
 	-webkit-transform-origin: center top;
 	        transform-origin: center top;
 }
@@ -812,6 +810,8 @@ select:focus::-ms-value {
 	transition: all 0.2s ease;
 	-webkit-transform: scale(0);
 	        transform: scale(0);
+	-webkit-transform-origin: left top;
+	        transform-origin: left top;
 	will-change: box-shadow;
 }
 
@@ -1786,7 +1786,7 @@ select:focus::-ms-value {
 
 .c-footer {
 	text-align: center;
-	margin: 4rem 0 3rem;
+	margin: 4rem 0 5rem;
 }
 
 .c-footer-nav-link {
